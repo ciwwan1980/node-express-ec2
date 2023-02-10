@@ -4,5 +4,5 @@ const app = express();
 app.listen(3000, console.log("Api running on Port 3000..."));
 
 app.get('/', (req,res) =>{
-    res.json('My API running');
+    res.json('My API running with instance');
 });
